@@ -1,9 +1,22 @@
-# Segmentación de Fallas Geológicas en imágenes sísmicas ruidosas usando redes neuronales convolucionales
+# Segmentación de Fallas Geológicas en Imágenes Sísmicas Ruidosas usando Redes Neuronales Convolucionales
+
 ## Descripción del repositorio.
 Este repositorio contiene códigos de programación en lenguaje Python y una base de datos de imágenes sísmicas con sus respectivas máscaras de fallas geológicas interpretadas extraidos de repositorios públicos para el fin de esta investigación.
+
 ## Base de Datos 💾
 
 ## Código (Notebooks) 🐍
+En este trabajo fue necesario el uso del lenguaje de programación Python. A continuación, se relacionan los Jupyter Notebook ejecutados en entornos de desarrollo integrado (IDE), como Visual Studio Code (Local) y Kaggle (https://www.kaggle.com/). Para el entrenamiento de los algoritmos de redes neuronales convolucionales se utilizó una GPU NVIDIA TESLA P100 de manera remota a través de los servidores gratuitos de Kaggle.
+
+- **Notebooks ejecutador en entorno Visual Studio Code (Local)**. 
+
+- **Notebooks ejecutados en entorno Kaggle (Remoto)**.
+  
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-i)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-inception)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/noise-test)
+
 
 ## Colaboración 👥
 
