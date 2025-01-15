@@ -1,21 +1,39 @@
 # Segmentación de Fallas Geológicas en Imágenes Sísmicas Ruidosas usando Redes Neuronales Convolucionales
 
 ## Descripción del repositorio.
-Este repositorio contiene códigos de programación en lenguaje Python y una base de datos de imágenes sísmicas con sus respectivas máscaras de fallas geológicas interpretadas extraidos de repositorios públicos para el fin de esta investigación.
+Este repositorio contiene códigos de programación en lenguaje Python y una base de datos de imágenes sísmicas con sus respectivas máscaras de fallas geológicas interpretadas, extraidas de repositorios públicos para mi tesis de pregrado "Segmentación de fallas geológicas en imágenes sísmicas ruidosas usando redes neuronales convolucionales".
 
 ## Base de Datos 💾
+Los datos fueron extraidos de repositorios publicos de información, relacionados a continuación:
+
+- Datos Force 2020 (Bormann P., Aursand P., Dilib F., Dischington P., Manral S. 2020. FORCE Machine Learning): https://drive.google.com/drive/folders/1jJhpmoAsMmA-kB1dL1lGDW_aRSTbkprV. 
+- Datos sísmicos interpretados en gigabytes para el reconocimiento automático de fallas (An, Yu; Guo, Jiulin; Ye, Qing; Childs, Conrad; Walsh, John; Dong, Ruihai, 2021, "A Gigabyte Interpreted Seismic Dataset for Automatic Fault Recognition", https://doi.org/10.7910/DVN/YBYGBK, Harvard Dataverse, V4) : https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YBYGBK.
+- Datos sísmicos sintéticos 200T, 20V (Xinming Wu, "FaultSeg3D: Using Synthetic Seismic Data to Train an End-to-End Convolutional Neural Network for 3D Seismic Fault Detection," Geophysics, 2019.) : https://www.kaggle.com/datasets/malik9/synth-seis-data/data?select=prediction.
+
+Las imágenes sísmicas procesadas y sus máscaras, pueden ser descargadas en los siguientes enlaces:
+- Datos implementación Fase 2 : [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/datasets/alvaroascanio/implem-fase2)
+- Datos implementación Fase 3: [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/datasets/alvaroascanio/implem-fase3)
+
+Los modelos entrenados de las redes neuronales convolucionales implementadas están disponibles para descarga en el siguiente enlace: [![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1InKmOl8_ip85eJrjjhGoh_Uy_uEFv0GO?usp=sharing)
 
 ## Código (Notebooks) 🐍
 En este trabajo fue necesario el uso del lenguaje de programación Python. A continuación, se relacionan los Jupyter Notebook ejecutados en entornos de desarrollo integrado (IDE), como Visual Studio Code (Local) y Kaggle (https://www.kaggle.com/). Para el entrenamiento de los algoritmos de redes neuronales convolucionales se utilizó una GPU NVIDIA TESLA P100 de manera remota a través de los servidores gratuitos de Kaggle.
 
-- **Notebooks ejecutador en entorno Visual Studio Code (Local)**. 
+- **Notebooks ejecutados en entorno Visual Studio Code (Local)**.
+
+Procesamiento de sísmica 3D a parches 2D : [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/procesamiento)
+
+Funciones de inducción de ruido en imágenes sísmicas : [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/ruido-funciones)
 
 - **Notebooks ejecutados en entorno Kaggle (Remoto)**.
   
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-i)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-inception)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/noise-test)
+Implementación de red neuronal convolucional Unet Attention: [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet)
+
+Implementación de red neuronal convolucional Unet++ : [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-i)
+
+Implementación de red neuronal convolucional Unet Inception :[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-inception)
+
+Evaluación de imágenes de test ruidosas: [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/noise-test)
 
 
 ## Colaboración 👥
