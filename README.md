@@ -27,7 +27,7 @@ Funciones de inducción de ruido en imágenes sísmicas : [![Kaggle](https://kag
 
 - **Notebooks ejecutados en entorno Kaggle (Remoto)**.
   
-Implementación de red neuronal convolucional Unet Attention: [![Kaggle](https://www.kaggle.com/code/alvaroascanio/modelo-unet-attention)
+Implementación de red neuronal convolucional Unet Attention: [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-attention)
 
 Implementación de red neuronal convolucional Unet++ : [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/alvaroascanio/modelo-unet-i)
 
